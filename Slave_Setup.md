@@ -1,6 +1,5 @@
-# ================================================
-## Configure the MySQL Slave Server
-# ================================================
+# Configure the MySQL Slave Server
+
 Head out to the slave server and like we did with the Master server, open the MySQL configuration file
 
 By default, MySQL server is configured to listen on localhost. So you will need to configure it to listen on the private IP address, set a unique ID and enable the binary logging. You can do it by editing the file depending on the Installation Instance:
@@ -11,9 +10,8 @@ By default, MySQL server is configured to listen on localhost. So you will need 
  2. Mariadb Instance
  nano  /etc/mysql/mariadb.conf.d/50-server.cnf
 
-# ================
-## Steps:
-# ================
+# Steps:
+
 1. Open mysql Configuration File by executing the command below
 
 		nano  /etc/mysql/mariadb.conf.d/50-server.cnf
